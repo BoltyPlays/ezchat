@@ -1,0 +1,59 @@
+body{
+  background: #b3e5cc;
+  color: #000000;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+label{
+  width: 5%;
+  display: inline-block;
+  text-align: right;
+}
+
+input{
+  background: #ffffff;
+  color: #000000;
+  font-size: 120%;
+  border: dot-dash;
+}
+
+.button-3d {
+  position:relative;
+  width: auto;
+  color:#000000;
+  text-decoration:none;
+  border-radius:3px;
+  border:solid 1px #8FCCAD;
+  background:#b3e5cc;
+  text-align:center;
+  padding:16px 18px 14px;
+
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+
+  -webkit-box-shadow: 0px 6px 0px #8FCCAD;
+  -moz-box-shadow: 0px 6px 0px #8FCCAD;
+  box-shadow: 0px 6px 0px #8FCCAD;
+}
+.button-3d:active{
+  -webkit-box-shadow: 0px 2px 0px #8FCCAD;
+  -moz-box-shadow: 0px 2px 0px #8FCCAD;
+  box-shadow: 0px 2px 0px #8FCCAD;
+  position:relative;
+  top:4px;
+}
+
+.Message{
+  color: #000000;
+}
+
+#Main{
+  background: #bf9fff;
+  border-radius: 1%;
+  padding-left: 1%;
+}
+
+#Title{
+  font-size: 300%;
+}
